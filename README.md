@@ -22,7 +22,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+
+```
+Example Code: 
+require 'speed_violations'
+
+violations = SpeedViolations::Violation.all
+
+
+logan_square_violation = SpeedViolations::Violation.search("Fullerton")
+
+```
 
 ## Development
 
